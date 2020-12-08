@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #eee;
+  color: #555;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.618;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contents {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  flex-wrap: wrap;
+}
+
+[class^="box"] {
+  width: calc(20% - 40px);
+  margin: 20px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.box1{
+  background:maroon;
+}
+.box2{ background:gold;
+}
+
+.box3{
+background: orange;
+}
+
+.box4 {
+  background: red;
+}
+
+.box5 {
+  background: blue;
+}
+
+.box6 {
+  background: cyan;
+}
+
+.box7 {
+  background: purple;
+}
+
+.box8 {
+  background: grey;
+}
+
+.box9 {
+  background: pink;
+}
+
+.box10 {
+  background: green;
+}
